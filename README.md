@@ -1,4 +1,4 @@
-# Windows Defender Configuration Analysis
+# Windows Defender Configuration
 
 In this project I analyze and update a system's Windows Defender antivirus and firewall configurations. I will complete tasks such as updating threat definitions, running antivirus scans, and configuring inbound/outbound network traffic rules so that the system is best protected against known vulnerabilities. 
 
@@ -91,10 +91,11 @@ Next I will navigate to the advanced security firewall rules where I can allow/d
 ![](Images/Pasted%20image%2020230722151808.png)
 
 For this project I want to: 
-	- Allow Key Management Service on domain and private networks 
-	- Block Key Management Service on public networks
-	- Block Windows Remote Management on public networks
-
+```
+- Allow Key Management Service on domain and private networks 
+- Block Key Management Service on public networks
+- Block Windows Remote Management on public networks
+```
 Before we enable Key Management Service I want to verify the above rules are in place by navigating to its `Advanced` properties. 
 
 First I will edit the existing Key Management Service `allow` rule to allow only domain and private networks.
