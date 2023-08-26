@@ -129,5 +129,6 @@ In this project I analyzed and configured a system's existing Windows Defender A
 Now that these configurations are up to date, the system is much better protected against the latest known vulnerabilities defined by Microsoft and from unwanted network traffic. 
 
 
-`Victor Preston`
-`Author`
+-    `Victor Preston`
+-    `Author`
+-    2023
